@@ -7,7 +7,6 @@ fib ()
     local n=$1
     while [ ${#fib_cache[@]} -lt $n ]; do
         fib_cache+=($(bc <<< "${fib_cache[-1]} + ${fib_cache[-2]}"))
-        # >&2 echo "Updated: ${fib_cache[@]} for n=$n"
     done
     echo ${fib_cache[@]:0:$n}
 }
