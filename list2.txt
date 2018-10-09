@@ -1,0 +1,25 @@
+total 140712
+drwx------@   3 kaspir  staff        96 Aug  1 14:16 Applications
+drwx------+  32 kaspir  staff      1024 Aug 10 03:29 Desktop
+drwx------+  12 kaspir  staff       384 Oct 25  2017 Documents
+drwx------+ 165 kaspir  staff      5280 Sep 23 10:23 Downloads
+drwxr-xr-x    3 kaspir  staff        96 Aug 30 01:25 IdeaProjects
+drwx------@  73 kaspir  staff      2336 Nov 14  2017 Library
+drwxr-xr-x   15 kaspir  staff       480 Jul 21  2013 MoveMe
+drwx------+   5 kaspir  staff       160 Apr 26  2016 Movies
+drwx------+   4 kaspir  staff       128 Dec 30  2012 Music
+drwx------+   9 kaspir  staff       288 May 26  2016 Pictures
+drwxr-xr-x+   5 kaspir  staff       160 Apr  8  2016 Public
+-rw-r--r--    1 kaspir  staff      1470 Aug 10 05:01 Untitled.ipynb
+-rw-r--r--    1 kaspir  staff      1763 Sep  9 22:56 Untitled1.ipynb
+drwxr-xr-x    6 kaspir  staff       192 Jun  4  2017 WindowsSupport
+-rw-r--r--    1 kaspir  staff     17559 Sep 11 00:34 bfs.ipynb
+drwxr-xr-x    3 kaspir  staff        96 Sep 22 10:45 cis2018
+-rw-r--r--    1 kaspir  staff  24004096 Aug 25 05:46 data
+-rw-r--r--    1 kaspir  staff  48004096 Aug 25 05:46 data#
+-rwxrwxrwx@   1 kaspir  staff      1106 Nov  9  2017 dotnet-uninstall-pkgs.sh
+drwxr-xr-x   23 kaspir  staff       736 Sep  9 22:24 miniconda3
+drwxr-xr-x   28 kaspir  staff       896 Sep 23 07:58 projects
+drwxr-xr-x    4 kaspir  staff       128 Nov 14  2017 skype-export
+drwxr-xr-x    2 root    staff        64 Apr  8  2016 tmp
+drwxr-xr-x    4 kaspir  staff       128 Sep 29 01:34 workbench
