@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
+echo $BASH_VERSION
 fib_cache=(0 1)
 
 fib ()
