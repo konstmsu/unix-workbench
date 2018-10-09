@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-echo $BASH_VERSION
 fib_cache=(0 1)
 
 fib ()
@@ -19,6 +18,7 @@ fib_tests ()
     test()
     {
         local n=$1
+        echo "Testing $n..."
         echo "$n -> $(fib $n)" >>$output
     }
     test 1
@@ -37,5 +37,5 @@ fib_tests ()
     test 99
     test 201
     
-    diff -y fibonacci_expected.out $output
+    comm -3 fibonacci_expected.out $output
 }
