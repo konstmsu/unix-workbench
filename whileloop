@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+count=0
+while [[ $count -lt 3 ]]
+do
+    echo "count is $count"
+    let count=$count+1
+done

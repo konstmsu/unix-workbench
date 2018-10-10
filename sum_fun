@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+function sum() {
+    s=0
+
+    for i in $@
+    do
+        let s=$s+$i
+    done
+
+    echo $s
+}
