@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+while :
+do
+    echo "Enter something:"
+    read something
+
+    if [[ $something =~ ^q ]]; then
+        echo "Quitting..."
+        break
+    fi
+
+    echo "You've entered '$something'"
+
+    if [[ $something =~ ^[0-9]+$ ]]; then
+        n=$something
+        echo "$n * 2 is $((n * 2))"
+    fi
+done
