@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function sum() {
-    s=0
+    local s=0
 
     for i in $@
     do
