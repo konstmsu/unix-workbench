@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+#brace expansion
+for k in {1..5}
+do
+    echo "k is $k"
+done
+
+# array
+values=(a b cd)
+for i in ${values[*]}
+do
+    echo "i is $i"
+done
+
+#explicit
+for j in one two three
+do
+    echo "j is $j"
+done
+
+#command substitution
+for f in $(ls)
+do
+    echo "f is $f"
+done
+
+for n in *.*
+do
+    echo "n is $n"
+done
